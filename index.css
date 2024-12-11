@@ -14,7 +14,7 @@
 
 .avatar {
   width: 310px;
-  margin-top: 37%;
+  margin-top: 18%;
 }
 
 .title {
@@ -22,10 +22,45 @@
   font-family: Poppins, sans-serif;
   color: white;
   font-weight: 800;
-  padding-top: 50px;
+  padding-top: 40px;
   text-align: center;
+}
+
+.title-text {
+  white-space: pre-wrap;
+  font-size: 24px;
+  font-family: Poppins, sans-serif;
+  color: white;
+  font-weight: 200;
+  text-align: center;
+  padding-top: 35px;
 }
 
 .gradient {
   color: #ff8660;
+}
+
+.navbar {
+  width: 100%;
+  height: 82px;
+  background-color: #222222;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  margin-left: 22%;
+}
+
+.navbar-menu {
+  padding-left: 20%;
+  width: 100%;
+}
+
+.navbar-menu-text {
+  font-size: 18px;
+  font-family: Poppins, sans-serif;
+  color: white;
+  font-weight: 600;
+  padding-left: 7%;
 }
