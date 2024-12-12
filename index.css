@@ -13,7 +13,7 @@
 }
 
 .avatar {
-  width: 310px;
+  width: 270px;
   margin-top: 18%;
 }
 
@@ -33,7 +33,6 @@
   color: white;
   font-weight: 200;
   text-align: center;
-  padding-top: 35px;
 }
 
 .gradient {
@@ -63,4 +62,25 @@
   color: white;
   font-weight: 600;
   padding-left: 7%;
+}
+
+.buttons {
+  display: flex;
+}
+
+.contacts-button {
+  display: inline-block;
+  width: 195px;
+  height: 64px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.download-button {
+  display: inline-block;
+  width: 195px;
+  height: 64px;
+  border-radius: 50px;
+  background-color: #222222;
+  border: 2px solid white;
 }
