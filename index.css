@@ -66,21 +66,35 @@
 
 .buttons {
   display: flex;
+  font-size: 22px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
 }
 
 .contacts-button {
-  display: inline-block;
+  display: flex;
   width: 195px;
   height: 64px;
   border-radius: 50px;
   background-color: white;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
 }
 
 .download-button {
-  display: inline-block;
+  display: flex;
   width: 195px;
   height: 64px;
   border-radius: 50px;
   background-color: #222222;
   border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
 }
