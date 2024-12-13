@@ -98,3 +98,17 @@
   align-items: center;
   justify-content: center;
 }
+
+.experience {
+  margin-top: 100px;
+}
+
+.exp-text {
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+  color: #c5c5c5;
+  font-weight: 600;
+  font-family: Poppins, sans-serif;
+  text-transform: uppercase;
+}
