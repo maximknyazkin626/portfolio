@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
+    <title>Portfolio KnyazkinMA</title>
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,7 +13,7 @@
     />
   </head>
   <body>
-    <div class="navbar">
+    <nav class="navbar">
       <img src="images/logo.png" alt="logo" class="navbar-logo" />
       <div class="navbar-menu">
         <span class="navbar-menu-text">Home</span>
@@ -21,7 +21,7 @@
         <span class="navbar-menu-text">Experience</span>
         <span class="navbar-menu-text">Contacts</span>
       </div>
-    </div>
+    </nav>
     <div class="first-page">
       <picture>
         <img src="images/avatar.png" alt="avatar" class="avatar" />
@@ -38,15 +38,61 @@
         on the Amazon AWS platform.
       </span>
       <div class="buttons">
-        <a href="" class="contacts-button">Get in Touch</a>
+        <a href="mailto:knyazkin.maxim.626@gmail.com" class="contacts-button">Get in Touch</a>
         <a href="images/CV Knyazkin MA.pdf" download class="download-button"
           >Download CV</a
         >
       </div>
-      <article class="experience">
-        <span class="exp-text">Experience with</span>
-        <div class="exp-icons"></div>
-      </article>
+    </div>
+    <div class="second-page">
+      <div class="second-page-container">
+        <article class="experience">
+          <span class="exp-text">Experience with</span>
+          <div class="exp-icons">
+            <img class="exp-icon" src="images/javascript.png" alt="js">
+            <img class="exp-icon" src="images/nodejs.png" alt="node.js">
+            <img class="exp-icon" src="images/html.png" alt="html">
+            <img class="exp-icon" src="images/css.png" alt="css">
+          </div>
+        </article>
+        <article class="projects">
+          <span class="projects-title">Projects</span>
+          <div class="projects-cards">
+            <div class="project-card">
+              <div class="card-img-container">
+                <img src="images/gamepad-landing.jpg" alt="gamepad landing" class="card-img">
+              </div>
+              <div class="card-description">
+                <div class="project-text">
+                  <a href="https://maximknyazkin626.github.io/Joystick-Landing/" target="_blank" class="project-link">Click here to visit</a>
+                  <a href="https://maximknyazkin626.github.io/Joystick-Landing/" target="_blank" class="project-title">Gamepad Landing</a>
+                </div>
+                <div class="project-arrow">
+                  <a href="https://maximknyazkin626.github.io/Joystick-Landing/" target="_blank">
+                    <img src="images/arrow.png" alt="arrow" class="arrow">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="card-img-container">
+                <img src="images/mq-diplom.jpg" alt="gamepad landing" class="card-img">
+              </div>
+              <div class="card-description">
+                <div class="project-text">
+                  <a href="https://maximknyazkin626.github.io/mq-diplom/" target="_blank" class="project-link">Click here to visit</a>
+                  <a href="https://maximknyazkin626.github.io/mq-diplom/" target="_blank" class="project-title">Diplom Landing Page</a>
+                </div>
+                <div class="project-arrow">
+                  <a href="https://maximknyazkin626.github.io/mq-diplom/" target="_blank">
+                    <img src="images/arrow.png" alt="arrow" class="arrow">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
     </div>
   </body>
 </html>
