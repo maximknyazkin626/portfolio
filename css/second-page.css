@@ -1,129 +1,131 @@
-.second-page{
-    width: 100%;
-    height: 1300px;
-    background-color: #161513;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.second-page {
+  width: 100%;
+  height: 100%;
+  background-color: #161513;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .second-page-container {
-    max-width: 70%;
-    background-color: inherit;
+  max-width: 70%;
+  background-color: inherit;
 }
 
 .experience {
-    margin-top: 90px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  .exp-text {
-    width: 100%;
-    display:inline-block;
-    font-size: 22px;
-    color: #c5c5c5;
-    font-weight: 600;
-    font-family: Poppins, sans-serif;
-    text-transform: uppercase;
-    padding-bottom: 50px;
-  }
-.exp-icons{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    gap: 70px;
+  margin-top: 90px;
+  width: 100%;
+  text-align: center;
+}
+
+.exp-text {
+  width: 100%;
+  display: inline-block;
+  font-size: 22px;
+  color: #c5c5c5;
+  font-weight: 600;
+  font-family: Poppins, sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+.exp-icons {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 70px;
 }
 
 .exp-icon {
-    width: 63px;
-    height: 63px;
+  width: 63px;
+  height: 63px;
 }
 
-.projects{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-top: 100px;;
+.projects {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 100px;
 }
-.projects-title{
-    font-size: 37px;
-    color: #4DDE00;
-    font-weight: 600;
-    font-family: Poppins, sans-serif;
-    text-transform: uppercase;
-    padding-bottom: 60px;
+.projects-title {
+  font-size: 37px;
+  color: #4dde00;
+  font-weight: 600;
+  font-family: Poppins, sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 60px;
 }
-.projects-cards{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-between;
-}
-.project-card{
-    display: flex;
-    flex-direction: column;
-    width: 590px;
-    height: 390px;
-    border-radius: 18px;
-    padding: 20px;
+.projects-cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
+.project-card {
+  display: flex;
+  flex-direction: column;
+  width: 590px;
+  height: 390px;
+  border-radius: 18px;
+  padding-top: 20px;
+}
+
+/* .project-card:nth-child(odd) {
+  gap: 50px;
+} */
 
 .card-img-container {
-    width: 100%;
-    height: 78%;
-    background-color: inherit;
+  width: 100%;
+  height: 78%;
+  background-color: inherit;
 }
 
 .card-img {
-    width: 100%;
-    height: 100%;
-    border-top-left-radius: 18px;
-    border-top-right-radius: 18px;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
 }
 
 .card-description {
-    width: 100%;
-    height: 22%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 25px;
-    background-color: #2A2A2A;
-    border-bottom-left-radius: 18px;
-    border-bottom-right-radius: 18px;
+  width: 100%;
+  height: 22%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  background-color: #2a2a2a;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
 }
 
 .project-text {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
 .project-link {
-    font-size: 16px;
-    color: #C5C5C5;
-    font-weight: 800;
-    font-family: Poppins, sans-serif;
-    text-transform: uppercase;
+  font-size: 16px;
+  color: #c5c5c5;
+  font-weight: 800;
+  font-family: Poppins, sans-serif;
+  text-transform: uppercase;
 }
 
 .project-title {
-    font-size: 24px;
-    color: #FFFFF5;
-    font-weight: 800;
-    font-family: Poppins, sans-serif;
-    text-transform: uppercase;
+  font-size: 24px;
+  color: #fffff5;
+  font-weight: 800;
+  font-family: Poppins, sans-serif;
+  text-transform: uppercase;
 }
 
 .project-title:hover {
-    color: #b3b3b3;
+  color: #b3b3b3;
 }
 
-
 .arrow {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
