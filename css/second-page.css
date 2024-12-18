@@ -70,7 +70,7 @@
   border-radius: 18px;
 }
 
-.project-card:nth-child(n+3) {
+.project-card:nth-child(n + 3) {
   padding-top: 70px;
 }
 

@@ -3,6 +3,7 @@
   height: 100%;
   background-color: #161513;
   padding-top: 200px;
+  padding-bottom: 40px;
 }
 .third-page-container {
   width: 70%;
@@ -21,7 +22,6 @@
   text-align: center;
 }
 .experience-cards {
-  
 }
 .experience-card {
   width: 100%;
