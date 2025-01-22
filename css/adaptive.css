@@ -48,6 +48,8 @@
   }
   .title-text {
     font-size: 18px;
+    white-space: normal;
+    padding: 7% 10%;
   }
   .avatar {
     width: 240px;
@@ -55,6 +57,9 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .first-page {
+    height: 750px;
+  }
   .navbar-menu {
     display: none;
   }
@@ -75,8 +80,19 @@
   }
   .title-text {
     font-size: 15px;
+    white-space: normal;
+    padding: 7% 10%; 
   }
   .avatar {
     width: 240px;
+  }
+  .buttons {
+    font-size: 18px;
+  }
+  .contacts-button {
+    width: 170px;
+  }
+  .download-button {
+    width: 170px;
   }
 }
