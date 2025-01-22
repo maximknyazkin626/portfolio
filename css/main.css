@@ -156,3 +156,7 @@ footer {
 
 .icons {
 }
+
+.navbar-burger {
+  display: none;
+}
