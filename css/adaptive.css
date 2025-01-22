@@ -58,7 +58,7 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .first-page {
-    height: 750px;
+    height: 800px;
   }
   .navbar-menu {
     display: none;
@@ -88,9 +88,12 @@
   }
   .buttons {
     font-size: 18px;
+    flex-direction: column;
+    gap: 12px;
   }
   .contacts-button {
     width: 170px;
+    margin-right: 0;
   }
   .download-button {
     width: 170px;
