@@ -5,6 +5,10 @@
   .navbar-logo {
     margin-left: 15%;
   }
+  .project-card {
+    width: 49%;
+    height: 330px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -26,6 +30,18 @@
   }
   .title-text {
     font-size: 19px;
+  }
+  .projects-cards {
+    flex-direction: column;
+  }
+  .project-card {
+    margin-bottom: 10%;
+  }
+  .project-card:nth-child(n + 3) {
+    padding-top: 0;
+  }
+  .third-page {
+    padding-top: 15%;
   }
 }
 
@@ -54,11 +70,38 @@
   .avatar {
     width: 240px;
   }
+  .experience {
+    margin-top: 60px;
+  }
+  .exp-icon {
+    width: 45px;
+    height: 45px;
+  }
+  .exp-icons {
+    gap:15%;
+  }
+  .projects-cards {
+    flex-direction: column;
+  }
+  .project-card {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 10%;
+  }
+  .project-card:nth-child(n + 3) {
+    padding-top: 0;
+  }
+  .project-title {
+    font-size: 22px;
+  }
+  .third-page {
+    padding-top: 15%;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .first-page {
-    height: 800px;
+    height: 850px;
   }
   .navbar-menu {
     display: none;
@@ -77,6 +120,7 @@
   }
   .title {
     font-size: 29px;
+    padding: 40px 3% 0px;
   }
   .title-text {
     font-size: 15px;
@@ -97,5 +141,32 @@
   }
   .download-button {
     width: 170px;
+  }
+  .experience {
+    margin-top: 60px;
+  }
+  .exp-icon {
+    width: 45px;
+    height: 45px;
+  }
+  .exp-icons {
+    gap:15%;
+  }
+  .projects-cards {
+    flex-direction: column;
+  }
+  .project-card {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 12%;
+  }
+  .project-card:nth-child(n + 3) {
+    padding-top: 0;
+  }
+  .project-title {
+    font-size: 22px;
+  }
+  .third-page {
+    padding-top: 15%;
   }
 }
