@@ -33,6 +33,7 @@
   width: 100%;
   justify-content: center;
   gap: 70px;
+  padding-bottom: 70px;
 }
 
 .exp-icon {

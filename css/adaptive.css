@@ -80,6 +80,9 @@
   .exp-icons {
     gap:15%;
   }
+  .codewars-stats{
+    width: 100%;
+  }
   .projects-cards {
     flex-direction: column;
   }
@@ -169,6 +172,9 @@
   }
   .exp-icons {
     gap:15%;
+  }
+  .codewars-stats{
+    width: 100%;
   }
   .projects-cards {
     flex-direction: column;
