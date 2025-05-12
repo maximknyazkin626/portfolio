@@ -69,6 +69,7 @@
   width: 590px;
   height: 390px;
   border-radius: 18px;
+  margin-bottom: 7%;
 }
 
 .project-card:nth-child(n + 3) {
@@ -99,6 +100,27 @@
   border-bottom-left-radius: 18px;
   border-bottom-right-radius: 18px;
 }
+
+.project-card__tags{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  gap: 2%;
+  list-style-type: none;
+}
+.project-card__tags-item{
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  background-color: #aab2d1;
+  /* background-color: #c5c5c5; */
+  color: #000;
+  font-size: 16px;
+  padding: 4px 8px;
+  border-radius: 20px;
+  border: 4px solid #a6a6a6;
+  margin-bottom: 10px;
+}
+
 
 .project-text {
   display: flex;
