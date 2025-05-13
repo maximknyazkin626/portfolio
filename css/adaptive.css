@@ -196,6 +196,10 @@
   .project-link {
     font-size: 14px;
   }
+  .project-card__tags-item{
+    font-size: 12px;
+    padding: 3px 6px;
+  }
   .third-page {
     padding-top: 15%;
   }
